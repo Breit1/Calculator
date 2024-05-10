@@ -1,0 +1,180 @@
+@font-face {
+  font-display: swap;
+  font-family: "VK sans";
+  font-style: normal;
+  font-weight: 400, 700;
+  src: url('fonts/VKsans.woff') format('woff');
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  user-select: none;
+  font-family: 'VK sans';
+}
+
+  .button-int{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -455px;
+    width: 70%;
+    height: 100%;
+    align-content: flex-start;
+    gap: 0;
+  }
+
+  .pole-vvoda{
+    word-wrap: break-word;
+    font-weight: 400;
+    width: 100%;
+    align-items: center;
+    min-height: 100px;
+    height: auto;
+    font-size: 70px;
+    color: #444444;
+    margin-top: 10px;
+  }
+
+  .int{
+    flex-grow: 1;
+    width: 30%;
+    height: 150px;
+    background-color: #dfdfdf;
+    color: #585757;
+    border: 1px solid rgb(166, 166, 166, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+
+
+.int:hover {
+  background-color: #c9c9c9; 
+}
+
+.int:active {
+  background-color: #929292;
+}
+
+#backspace{
+  background-color: #a8747447;
+  font-size: 15px;
+}
+  #backspace:hover{
+    background-color: #7e5d5d47;
+  }
+
+  #backspace:active{
+    background-color: #69474760;
+  }
+
+  .ravno{
+    flex-grow: 1;
+    width: 100%;
+    height: 150px;
+    background-color: #b8d4b5;
+    border: 1px solid rgb(166, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    color: #585757;
+    font-size: 30px;
+  }
+
+  .ravno:hover {
+    background-color: #a3bda6;
+  }
+  
+  .ravno:active {
+    background-color: #708575;
+  }
+
+  #C{
+    background-color: #dfc1c1;
+    font-size: 30px;
+  }
+  #C:hover {
+    background-color: #c3abab;
+  }
+  
+  #C:active {
+    background-color: #8d7e7e;
+  }
+
+
+  .zero{
+    flex-grow: 1;
+    width: 100%;
+    height: 150px;
+    background-color: #dfdfdf;
+    border: 1px solid rgb(166, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    color: #585757;
+    font-size: 30px;
+  }
+
+  .zero:hover {
+    background-color: #c9c9c9;
+  }
+  
+  .zero:active {
+    background-color: #878686;
+  }
+
+  .int-p{
+    flex-grow: 1;
+    width: 200px;
+    height: 0px;
+  }
+
+  .ost-button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 100%;
+    align-content: flex-start;
+    gap: 0;
+    margin-left: 70%;
+  }
+
+  #int-z{
+    flex-grow: 1;
+    width: 30%;
+    height: 150px;
+    background-color: #c1cf9999;
+    color: #585757;
+    border: 1px solid rgb(166, 166, 166, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+
+
+#int-z:hover {
+  background-color: #7a875a99;
+}
+
+#int-z:active {
+  background-color: #60694a99;
+}
+
+  
+  
+ 
